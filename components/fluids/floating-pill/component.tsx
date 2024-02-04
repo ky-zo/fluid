@@ -1,4 +1,5 @@
 import FloatingPill from "./floating-pill";
+import FloatingPillMockup from "./floating-pill-mockup";
 
 const FloatingPillComponent = () => {
   return (
@@ -7,10 +8,8 @@ const FloatingPillComponent = () => {
       <p className="text-sm  ">
         Menu pill designed to slowly follow users scroll on the page.
       </p>
-      <div className="border-[0.5px] min-h-[200px] rounded-2xl w-full shadow-neumorphic">
-        <div>
-          <FloatingPill fixed={false} />
-        </div>
+      <div className="border-[0.5px] min-h-[200px] rounded-2xl w-full shadow-neumorphic flex-center">
+        <FloatingPillMockup />
       </div>
     </div>
   );
