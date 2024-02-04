@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion, useTransform, useScroll, useSpring } from "framer-motion";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 
 const FloatingPill = ({ fixed = false }: { fixed: boolean }) => {
   return (
